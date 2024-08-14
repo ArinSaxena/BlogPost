@@ -14,6 +14,23 @@
     <a class="back-link" href="/blogs">Back to Blog List</a>
   </div>
 
+
+  <!-- <form action="/blogs/id/2" method="DELETE">
+    <button type="submit">Button</button>
+    </form> -->
+    <form action="/blogs/id/<%= blog.id %>" method="POST">
+     
+      <button type="submit">Delete</button>
+  </form>
+
+  <!-- <form action="/blogs/id/<%= blog.id %>/delete" method="DELETE">
+    <button type="submit">Delete</button>
+</form> -->
+
+
+
+  
+ 
   <%- include("./partials/footer.ejs") %>
 </body>
 </html>

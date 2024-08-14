@@ -1,9 +1,15 @@
 /* General Styles */
-body {
+
+
+*{
+  text-decoration: none;
+}
+  body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+ 
 }
 
 /* Navigation Styles */
